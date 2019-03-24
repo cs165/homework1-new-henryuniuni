@@ -4,8 +4,8 @@ body, html{
     margin: 0;
 }
 
-/* debug
-* {
+
+/** {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
@@ -78,7 +78,8 @@ hr{
     justify-content: center;
     width: 66.67%;
     align-content: center;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }  
 
 .header{
