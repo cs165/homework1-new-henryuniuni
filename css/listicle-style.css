@@ -1,3 +1,146 @@
-/**
- TODO(you): Write the CSS necessary to complete HW1!
-*/
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* debug
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}*/
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/header.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+#page_title {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    max-width: 780px;
+    vertical-align: middle;
+}
+
+#profile {
+    display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    border-radius:100%;
+    border-width: 1px;
+    border-color: white;
+}
+
+#profile_name {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+#profile_update {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    margin-top: -18px;
+}
+
+hr{
+    width: 200px;
+    position: relative;
+    display: block;
+    margin-top: 28px;
+    color: #e6e6e6;
+}
+
+#body_text {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 66.67%;
+    align-content: center;
+    position: relative;
+}  
+
+.header{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.title {
+    position: relative;
+    left: 220px;
+    margin-left: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
+.number {
+    position: absolute;
+    left: -76px;
+    top: -36px; 
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.link {
+    position: relative;
+    left: 250px;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    color: #1EA9B8;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-left: 250px;
+    width: 800px;
+    color: rgb(51, 51, 51);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text div{
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.text_img {
+    display: block;
+    position: relative;
+    left: 250px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.empty{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div {
+    border:none;
+}
